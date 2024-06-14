@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Auriculares</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="imagen-header">
+                <picture>
+                    <source sizes="1920w" srcset="img/header.avif 1920w" type="image/avif">
+                    <source sizes="1920w" srcset="img/header.webp 1920w" type="image/webp">
+                    <source sizes="1920w" srcset="img/header.png 1920w" type="image/png">
+
+                    <img loading="lazy" decoding="async" src="img/header.png" lazyalt="imagen-header" width="1000"
+                        height="600">
+                </picture>
+            </div> <!-- .imagen-header -->
+
+            <div class="texto-header">
+                <p class="tagline-producto">
+                    Sonido Profesional
+                </p>
+
+                <h1 class="nombre-producto degradado-verde">
+                    TechPRO
+                </h1>
+
+                <p class="descripcion-producto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quod quo delectus. Adipisci
+                    molestiae alias labore temporibus esse, impedit quasi nihil vero. Officia, similique sint! Provident
+                    perferendis nostrum amet assumenda?
+                </p>
+
+                <p class="precio-producto">
+                    Desde <span>$299</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <section class="contenedor">
+        <div class="iconos">
+            <div class="icono">
+                <img src="img/icono-sonido.svg" alt="icono-sonido">
+
+                <h3 class="titulo-icono">
+                    Gran Calidad de Sonido
+                </h3>
+
+                <p class="descripcion-icono text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ex quia. Accusamus blanditiis
+                    explicabo harum, ullam nam vitae consequatur sed inventore nulla amet possimus veritatis praesentium
+                    reiciendis quas aut perferendis!
+                </p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono-garantia.svg" alt="icono-garantia">
+
+                <h3 class="titulo-icono">
+                    Garantía de por vida
+                </h3>
+
+                <p class="descripcion-icono text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente dolores at assumenda ut
+                    pariatur minus, animi doloribus ea sint? Eveniet rerum autem quam hic voluptatem at? Sunt, dicta
+                    perferendis.
+                </p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono-bateria.svg" alt="icono-bateria">
+
+                <h3 class="titulo-icono">
+                    +20 Horas de Batería
+                </h3>
+
+                <p class="descripcion-icono text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laudantium at voluptatibus
+                    illo, rem animi fugit! Distinctio asperiores nobis sapiente, veritatis inventore praesentium! Nam a
+                    magni odio quia, quas maxime!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion-tech">
+        <div class="contenedor texto-tech-grid">
+            <div class="texto-sobre-tech">
+                <h2>
+                    Sobre los <span>TechPRO</span>
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis dignissimos corrupti molestiae cum
+                    sequi quaerat perspiciatis adipisci, incidunt blanditiis vero, ducimus error nesciunt? Soluta sunt
+                    ea ex saepe sequi laboriosam?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <main class="contenedor modelos">
+        <h2 class="header-modelo text-center degradado-verde">
+            Elige tus TechPRO
+        </h2>
+
+        <div class="listado-modelos">
+            <div class="modelo">
+                <h3 class="titulo-modelo">
+                    TechPRO X
+                </h3>
+
+                <p class="precio-modelo">
+                    $299
+                </p>
+            </div>
+
+            <div class="modelo">
+                <h3 class="titulo-modelo">
+                    TechPRO Y
+                </h3>
+
+                <p class="precio-modelo">
+                    $399
+                </p>
+            </div>
+
+            <div class="modelo">
+                <h3 class="titulo-modelo">
+                    TechPRO Z
+                </h3>
+
+                <p class="precio-modelo">
+                    $499
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <section class="newsletter">
+        <div class="contenido-newsletter contenedor">
+            <div class="texto-newsletter text-center">
+                <h2>
+                    Recibe Actualizaciones
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad excepturi deserunt cupiditate maiores vero vel ipsum aliquam, dolor harum debitis illum quibusdam obcaecati placeat hic ex quas perspiciatis velit atque?
+                </p>
+
+                <form class="formulario">
+                    <div class="input">
+                        <input type="text" placeholder="Tu Email..." name="input_update" id="input_update">
+
+                        <input type="submit" value="Inscribirme">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__text">
+            TechPRO - Todos los derechos reservados 2024.
+            <br>
+        </p>
+
+        <div class="footer__text--created">
+            Created by Renzo2099:
+        </div>
+
+        <div class="footer__title--github">
+            <a href="#" onclick="window.open('https://github.com/Renzo2O99', '_blank'); return false;">
+                <img class="footer__text--github" src="img/icono_github.png" alt="icono_github">
+            </a>
+            <span class="footer__title--text">
+                ¡Visita mi perfil<br>en GitHub!
+            </span>
+        </div>
+
+        <div class="footer__title--repositorio">
+            <a href="#"
+                onclick="window.open('https://github.com/Renzo2O99/Front-End-Store--Aliendro-Renzo.', '_blank'); return false;">
+                <img class="footer__text--repositorio" src="img/icono_repositorio_github.png"
+                    alt="icono_repositorio_github">
+            </a>
+            <span class="footer__title--text">
+                ¡Repositorio del Proyecto<br>en mi GitHub!
+            </span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
